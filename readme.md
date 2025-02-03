@@ -18,7 +18,7 @@
 ## 下载方法
 ```sh
 pip3 install flask-unsign;
-https://github.com/mekrina/flask-unsign-gui.git;
+git clone https://github.com/mekrina/flask-unsign-gui.git;
 cd flask-unsign-gui;
 python3 app.py;
 ```
