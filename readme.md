@@ -1,7 +1,9 @@
 <h1><center>flask-unsign-gui</center></h1>
 
 [使用方法](#使用方法)
+
 [下载方法](#下载方法)
+
 [flask session原理](#session原理)
 
 
@@ -14,9 +16,12 @@
 
 ## 下载方法
 ```sh
-pip3 install flask-unsign
-git clone 
+pip3 install flask-unsign;
+https://github.com/mekrina/flask-unsign-gui.git;
+cd flask-unsign-gui;
+python3 app.py;
 ```
+访问[http://localhost:5000](http://localhost:5000)即可
 ## session原理
 
 flask框架中的session由三部分组成，用`.`间隔
@@ -29,7 +34,7 @@ eyJhZG1pbiI6MH0.Z4TvGQ.6pZj4EsHiALdBjTc_STIl9XRU5Q
 ```
 {"admin":0}
 ```
-**第二部分**$~~~~$Z4TvGQ
+**第二部分** $~$ Z4TvGQ
 时间戳
 **第三部分**$~~~~$6pZj4EsHiALdBjTc_STIl9XRU5Q
 用secret作为密钥对第一部分和第二部分进行加密（hmac-sha算法）
